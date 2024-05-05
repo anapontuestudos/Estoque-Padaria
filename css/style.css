@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+
+  box-sizing: border-box;
+}
+
+body{
+
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  
+}
+
+.navbar h1{
+
+  /*border: 1px solid red;*/
+  font-family: "Lobster", sans-serif;
+  color: white;
+  font-size: 34px;
+
+}
+
+.logo{
+
+  flex: 20%;
+  /* border: 1px solid red; */
+  text-align: left;
+  margin-left: 10%;
+}
+
+.menu{
+    
+    flex: 70%;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px; 
+    
+}
+
+.menu ul{
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+
+.menu a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    border-radius: 10px;
+   font-weight: bold;
+}
+
+.menu a:hover{
+
+    color: black;
+    background-color: white;
+}
+
+header{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  padding-top: 100px;
+}
+
+
+header img{
+
+  height: 400px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 10px 10px 7px silver;
+}
+
+.seção-calendario{
+
+  background-color: black;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendario{
+
+  background-color: white;
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calendario p{
+
+  font-size: 35px;
+  border: 1px solid red;
+  height: 40px;
+}
+
+.calendario .mes{
+
+  border: 1px solid blue;
+  height: 40px;
+  font-size: 50px;
+}
+
+
+
